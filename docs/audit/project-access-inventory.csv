@@ -1,0 +1,35 @@
+project_id,title,standardized_category,raw_technology,tier,status,year,github_url,repo_status,is_accessible,primary_language,notes
+P001,Prescription verification agent,Agentic AI,Agentic AI,Featured,Done,2026,https://github.com/Rajkumar-Ai-Engineer/PrescriptionAgent,Accessible (Public),Yes,Python,Default branch: main
+P002,Deep_agents_practice,Agentic AI,Agentic AI,Archive,Done,2026,https://github.com/Rajkumar-Ai-Engineer/deep_agents_practice,Accessible (Public),Yes,Jupyter Notebook,Default branch: main
+P003,E_mail_assistant_(deep_agents),Agentic AI,Agentic AI,Standard,Done,2026,https://github.com/Rajkumar-Ai-Engineer/email_assistant_updated,Accessible (Public),Yes,Jupyter Notebook,Default branch: main
+P004,Sirax,Generative AI,Gen AI,Standard,Done,2026,https://github.com/Rajkumar-Ai-Engineer/Sirex,Accessible (Public),Yes,Python,Default branch: main
+P005,BasicRagApplication,Generative AI,Gen AI,Archive,Done,2026,https://github.com/Rajkumar-Ai-Engineer/BasicRagApplication,Accessible (Public),Yes,Python,Default branch: main
+P006,PokemonDataAnalysis,Data Analytics,Data Analytics,Archive,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/data_analytics/tree/main/POKEMON%20ANALYSIS,Accessible (Public),Yes,Jupyter Notebook,Default branch: main
+P007,FaceAttendanceSystem,Computer Vision,Computer Vision,Archive,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/FaceAttendanceSystem,Accessible (Public),Yes,Python,Default branch: main
+P008,Animal-Img-Classification,Deep Learning,DL,Archive,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/Animal_img_classification/,Accessible (Public),Yes,Python,Default branch: main
+P009,Player-face-recognition,Computer Vision,Computer Vision,Archive,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/player_face_recognition,Accessible (Public),Yes,Python,Default branch: main
+P010,Multi-Agent Streamlit App,Generative AI,Gen AI,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/Agents,Accessible (Public),Yes,Python,Default branch: main
+P011,AgenticRag,Agentic AI,Agentic AI,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/AgenticRag,Accessible (Public),Yes,Python,Default branch: main
+P012,VectorlessRag,Generative AI,Gen AI,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/vectorless_rag,Accessible (Public),Yes,Jupyter Notebook,Default branch: main
+P013,End-to-End RAG,Generative AI,Gen AI,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/End_to_End_Rag,Accessible (Public),Yes,Python,Default branch: main
+P014,fake_news_detection_v1,Generative AI,Gen AI,Featured,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/fake_news_detection_v1,Accessible (Public),Yes,HTML,Default branch: main
+P015,MCP Agent Orchestration — Gmail + Google Calendar,Generative AI,Gen AI,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/mcp-agent-orchestration,Accessible (Public),Yes,Python,Default branch: main
+P016,Deepfake Detector — Audio + Video Fusion,Deep Learning,DL,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/deepfake-detector,Accessible (Public),Yes,Jupyter Notebook,Default branch: main
+P017,Tamil Literature Flowers — Full Stack Web App,Generative AI,Gen AI,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/tamil-literature-flowers,Accessible (Public),Yes,Python,Default branch: main
+P018,Tamil Flower Classifier,Deep Learning,DL,Archive,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/tamil-flower-classifier,Accessible (Public),Yes,Jupyter Notebook,Default branch: main
+P019,Book Recommendation System,Machine Learning,ML,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/Book_recommentor_system,Accessible (Public),Yes,Jupyter Notebook,Default branch: main
+P020,Smart Housing Assistant,Generative AI,Gen AI,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/smart_housing_assistant,Accessible (Public),Yes,Python,Default branch: main
+P021,Holiday Trip Planner,Agentic AI,Agentic AI,Featured,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/HolidayPlanner,Accessible (Public),Yes,Python,Default branch: main
+P022,URLSummarizer,Generative AI,Gen AI,Archive,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/URLSummarizer,Accessible (Public),Yes,Python,Default branch: main
+P023,Heltech,Artificial Intelligence,AI,Featured,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/HelTech,Accessible (Public),Yes,JavaScript,Default branch: main
+P024,CustomerChurnPrediction,Machine Learning,ML,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/Streamlit_cloud_test,Accessible (Public),Yes,Jupyter Notebook,Default branch: main
+P025,DVC,Machine Learning,ML,Archive,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/DVC,Accessible (Public),Yes,,Default branch: master
+P026,MLFlow,Machine Learning,ML,Archive,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/MLFLOW,Accessible (Public),Yes,Python,Default branch: main
+P027,NetworkSecurity prediction,Machine Learning,ML,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/NetworkSecurity,Accessible (Public),Yes,Python,Default branch: main
+P028,Mcpdemo,Generative AI,Gen AI,Archive,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/MCP_demo,Accessible (Public),Yes,Python,Default branch: main
+P029,End-to-End-student performance prediction,Machine Learning,ML,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/End_to_End_ML/,Accessible (Public),Yes,Python,Default branch: main
+P030,FinancialPortpolio,Data Analytics,Data Analytics,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/FinancialPortpolio,Accessible (Public),Yes,Jupyter Notebook,Default branch: main
+P031,AegisAI,Generative AI,Gen AI,Featured,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/AegisAI,Accessible (Public),Yes,CSS,Default branch: master
+P032,devbotapp,Generative AI,Gen AI,Standard,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/devbotapp,Accessible (Public),Yes,Python,Default branch: master
+P033,unsupervised learning and clustering analysis,Machine Learning,ML,Archive,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/MachineLearning-UnsupervisedLearning-clusters,Accessible (Public),Yes,Jupyter Notebook,Default branch: main
+P034,Resume Intelligence and Parser Pipeline,Unspecified,Unspecified,Archive,Done,2025-2026,https://github.com/Rajkumar-Ai-Engineer/Resume-Intelligence-and-Parser-Pipeline,Accessible (Public),Yes,Python,Default branch: master

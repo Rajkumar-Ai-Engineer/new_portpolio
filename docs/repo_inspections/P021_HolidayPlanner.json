@@ -1,0 +1,16 @@
+{
+  "project_id": "P021",
+  "title": "Holiday Trip Planner",
+  "owner": "Rajkumar-Ai-Engineer",
+  "repo": "HolidayPlanner",
+  "language": "Python",
+  "files_count": 4,
+  "files": [
+    "README.md",
+    "requirements.txt",
+    "app.py",
+    "main.py"
+  ],
+  "readme_snippet": "# Holiday Trip Planner\n\nAI-powered holiday trip planning application using multi-agent system with FastAPI backend.\n\n## Features\n\n- Multi-agent AI system for trip planning and research\n- Real-time destination research using Tavily and Serper APIs\n- Google Maps integration for location services\n- Budget-aware trip planning\n- FastAPI web interface\n- Docker containerized deployment\n- AWS ECR integration\n\n## Prerequisites\n\n- Python 3.11+\n- Docker\n- AWS CLI (for ECR deployment)\n- API Keys:\n  - Groq API Key\n  - Serper API Key\n  - Google Maps API Key\n  - Tavily API Key\n\n## Installation\n\n### Local Development\n\n```bash\n# Clone repository\ngit clone <repository-url>\ncd TravelBot\n\n# Install package\npip install -e .\n\n# Create .env file with required API keys\ncp .env.example .env\n# Edit .env with your API keys\n```\n\n### Environment Variables\n\nCreate a `.env` file:\n\n```env\nGROQ_API_KEY=your_groq_api_key\nSERPER_API_KEY=your_serper_api_key\nMAP_API_KEY=your_google_maps_api_key\nTAVILY_API_KEY=your_tavily_api_key\n\nLANGSMITH_TRACING=true\nLANGSMITH_ENDPOINT=https://api.smith.langchain.com\nLANGSMITH_API_KEY=your_langsmith_api_key\nLANGSMITH_PROJECT=HolidayTripAgent\n\nAWS_REPOSITORY_URI=your_ecr_uri\nAWS_REPOSITORY_NAME=holidaytripagent\nAWS_DEFAULT_REGION=us-east-1\nAWS_ACCESS_KEY=your_aws_access_key\nAWS_SECRET_KEY=your_aws_secret_key\n```\n\n## Usage\n\n### Run Locally\n\n```bash\npython app.py\n```\n\nAccess the application at `http://localhost:8080`\n\n### Docker Deployment\n\n```bash\n# Build image\ndocker build -t holidaytripagent:latest .\n\n# Run container\ndocker run -p 8080:8080 --env-file .env holidaytripagent:latest\n```\n\n### AWS ECR Deployment\n\n```bash\n# Authenticate Docker to ECR\naws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 266735847797.dkr.ecr.us-east-1.amazonaws.com\n\n# Build and tag image\ndocker build -t 266735847797.dkr.ecr.us-east-1.amazonaws.com/holidaytripagent:latest .\n\n# Push to ECR\ndocker push 266735847797.dkr.ecr.us-east-1.amazonaws.com/holidaytripagent:latest\n\n# Run from ECR\ndocker run -p 8080:8080 --env-file .env 266735847797.dkr.ecr.us-east-1.amazonaws.com/holidaytripagent:latest\n```\n\n## Project Structure\n\n```\nTravelBot/\n\u251c\u2500\u2500 HolidayAgent/\n\u2502   \u251c\u2500\u2500 agents/          # AI agents (planner, researcher)\n\u2502   \u251c\u2500\u2500 core/            # Core utilities (logger, exceptions)\n\u2502   \u251c\u2500\u2500 prompts/         # Agent prompts\n\u2502   \u251c\u2500\u2500 tools/           # External API tools\n\u2502   \u2514\u2500\u2500 utils/           # Helper utilities\n\u251c\u2500\u2500 app.py               # FastAPI application",
+  "dependencies_snippet": "autogen-agentchat\nlangchain-groq\npython-dotenv \nopenai \nipykernel\nautogen\nautogen_ext\ngooglemaps\ntavily\nlangchain-tavily\nlangchain_community\nfastapi\nuvicorn\n"
+}

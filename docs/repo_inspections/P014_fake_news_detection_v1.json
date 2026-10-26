@@ -1,0 +1,16 @@
+{
+  "project_id": "P014",
+  "title": "fake_news_detection_v1",
+  "owner": "Rajkumar-Ai-Engineer",
+  "repo": "fake_news_detection_v1",
+  "language": "HTML",
+  "files_count": 4,
+  "files": [
+    "README.md",
+    "requirements.txt",
+    "app.py",
+    "main.py"
+  ],
+  "readme_snippet": "Here is a structured, production-ready documentation template for your repository [fake_news_detection_v1](https://github.com/Rajkumar-Ai-Engineer/fake_news_detection_v1):\n\n---\n\n# TruthGuard: Multimodal Fake News Detection System\n\n**TruthGuard** is an end-to-end multimodal fake news and misinformation detection platform. It processes diverse media formats\u2014including video, audio, image, and raw text\u2014using advanced transcription and OCR pipelines combined with Large Language Models via Groq to perform rapid fact verification and source analysis.\n\n---\n\n## Key Features\n\n* **Multimodal Ingestion**:\n* **Video Analysis**: Transcription and subtitle extraction using **WhisperX**.\n* **Audio & Voice Processing**: Speech-to-text conversion via **Whisper**.\n* **Image Processing**: Optical Character Recognition (OCR) using **PaddleOCR** to extract embedded text from banners, memes, and articles.\n* **Text Processing**: Standard automated text cleaning and normalization.\n\n\n* **High-Speed LLM Inference**:\n* Leverages **Groq** cloud acceleration.\n* Supports reasoning and synthesis models: **DeepSeek-R1** and **Llama 3 70B**.\n\n\n* **Orchestration & Workflow**:\n* Built with **LangChain** and **LangGraph** (agentic workflows / Anthropic MCP integration).\n\n\n* **Web Interface**:\n* Interactive frontend (HTML/CSS/JS) served via Python backend (`app.py`).\n\n\n* **Containerized**:\n* Docker support for repeatable deployment across local and cloud environments.\n\n\n\n---\n\n## Tech Stack\n\n| Layer | Technology |\n| --- | --- |\n| **Backend & App** | Python, Flask/FastAPI (`app.py`), Setuptools (`setup.py`) |\n| **Frontend** | HTML5, CSS3, JavaScript (`templates/`, `static/`) |\n| **Speech & Audio** | Whisper, WhisperX |\n| **OCR** | PaddleOCR, OpenCV (Headless) |\n| **LLM Provider** | Groq (Llama 3 70B, DeepSeek-R1, Whisper) |\n| **Agent Frameworks** | LangChain, LangGraph |\n| **Deployment** | Docker |\n\n---\n\n## Project Structure\n\n```text\nfake_news_detection_v1/\n\u251c\u2500\u2500 .github/workflows/       # CI/CD pipelines\n\u251c\u2500\u2500 TruthGuard/              # Core application logic & pipeline modules\n\u251c\u2500\u2500 static/                  # Frontend assets (CSS, JS, media)\n\u251c\u2500\u2500 templates/               # HTML UI templates\n\u251c\u2500\u2500 .env                     # Environment variables (API keys, secrets)\n\u251c\u2500\u2500 .gitignore               # Git untracked file rules\n\u251c\u2500\u2500 Dockerfile               # Container build instructions\n\u251c\u2500\u2500 README.md                # Project README\n\u251c\u2500\u2500 app.py                   # Main web server entrypoint\n\u251c\u2500\u2500 config.py         ",
+  "dependencies_snippet": "langchain\nlangchain-community\nopenai\nlangchain-groq\nlangsmith\nflask\nlangchain-openai\nlangchain-pinecone\nhuggingface\nlangchain-huggingface\nlangchain-tavily \npython-dotenv \nlangchain-groq\nsentence_transformers\nstreamlit\neasyocr\npyngrok\nopencv-python-headless\nwhisper\nmoviepy\nflask\n\n"
+}

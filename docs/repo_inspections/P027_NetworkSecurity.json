@@ -1,0 +1,16 @@
+{
+  "project_id": "P027",
+  "title": "NetworkSecurity prediction",
+  "owner": "Rajkumar-Ai-Engineer",
+  "repo": "NetworkSecurity",
+  "language": "Python",
+  "files_count": 4,
+  "files": [
+    "README.md",
+    "requirements.txt",
+    "app.py",
+    "main.py"
+  ],
+  "readme_snippet": "The repository is private, so individual source files inside the `src` folder or `app.py` cannot be directly browsed or inspected.\n\nHere is a comprehensive, production-ready `README.md` template tailored to the repository structure visible on your page, including the Flask/FastAPI app, Docker deployment, CI/CD workflow, and modular ML pipeline components:\n\n```markdown\n# Network Security System\n\nAn end-to-end machine learning system designed to detect and classify network security threats and phishing attacks based on network traffic data. The solution includes automated data ingestion, validation, transformation, model training, evaluation, and containerized deployment with CI/CD.\n\n---\n\n## Architecture and Workflow\n\nThe pipeline is organized into modular stages under `src/`:\n\n1. **Data Ingestion**: Loads raw network traffic datasets from local storage or cloud databases into artifact stores.\n2. **Data Validation**: Validates schema, data types, missing values, and data drift against predefined schemas.\n3. **Data Transformation**: Handles feature encoding, missing value imputation, scaling, and preprocessor serialization.\n4. **Model Trainer**: Trains classification models, tunes hyperparameters, and selects the best-performing model.\n5. **Model Evaluation & Pusher**: Compares candidate models against production thresholds and saves the approved model to `final_model/`.\n6. **Web API**: Serves predictions via a web interface and REST endpoints defined in `app.py`.\n\n---\n\n## Project Structure\n\n```text\n\u251c\u2500\u2500 .github/workflows/       # GitHub Actions CI/CD pipelines\n\u251c\u2500\u2500 Network_Data/            # Raw datasets and sample inputs\n\u251c\u2500\u2500 final_model/             # Serialized production models and preprocessors\n\u251c\u2500\u2500 src/                     # Core source code\n\u2502   \u251c\u2500\u2500 components/          # Ingestion, validation, transformation, training\n\u2502   \u251c\u2500\u2500 pipeline/            # Training and prediction pipelines\n\u2502   \u251c\u2500\u2500 entity/              # Config and artifact entity definitions\n\u2502   \u251c\u2500\u2500 configuration/       # Database and environment configurations\n\u2502   \u251c\u2500\u2500 exception/           # Custom exception handling\n\u2502   \u251c\u2500\u2500 logger/              # Logging configuration\n\u2502   \u2514\u2500\u2500 utils/               # Common helper functions\n\u251c\u2500\u2500 templates/               # HTML templates for the web interface\n\u251c\u2500\u2500 .gitignore\n\u251c\u2500\u2500 Dockerfile               # Container build configuration\n\u251c\u2500\u2500 README.md\n\u251c\u2500\u2500 app.py                   # Web application entry point\n\u2514\u2500\u2500 requirements.txt         # Project dependencies\n\n```\n\n---",
+  "dependencies_snippet": "pymongo[srv]==3.11\npython-dotenv\npandas \nnumpy\ncertifi\npymongo\nscikit-learn\nflask\npyaml\ndill\nmlflow\ndagshub\nfastapi\nuvicorn\nboto3\npython-multipart"
+}

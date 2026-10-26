@@ -1,0 +1,24 @@
+{
+  "project_id": "P011",
+  "title": "AgenticRag",
+  "owner": "Rajkumar-Ai-Engineer",
+  "repo": "AgenticRag",
+  "description": null,
+  "default_branch": "main",
+  "created_at": "2026-07-31T14:57:07Z",
+  "updated_at": "2026-07-31T15:00:30Z",
+  "language": "Python",
+  "topics": [],
+  "files_count": 7,
+  "files": [
+    "QUICKSTART.md",
+    "README.md",
+    "__init__.py",
+    "__pycache__/helper.cpython-312.pyc",
+    "helper.py",
+    "requirements.txt",
+    "streamlit_app.py"
+  ],
+  "readme_snippet": "# Agentic RAG - Document Q&A System\n\nAn intelligent document retrieval and question-answering system that uses agentic workflows to decide when to retrieve documents and when to generate answers directly.\n\n## Features\n\n\ud83e\udd16 **Agentic Workflow**: Intelligent decision-making on whether to retrieve documents\n\ud83d\udcc4 **PDF Processing**: Automatic document loading, chunking, and vectorization\n\ud83d\udd0d **Semantic Search**: Uses HuggingFace embeddings for intelligent document retrieval\n\ud83d\udcac **Interactive Q&A**: Ask questions about your documents through a clean Streamlit interface\n\u26a1 **Groq LLM**: Fast inference using Groq's powerful language models\n\ud83d\udcbe **Temp Storage**: Automatic temporary folder management for uploaded files\n\n## Installation\n\n### Prerequisites\n- Python 3.8+\n- GROQ API Key\n- HuggingFace API Key\n\n### Setup\n\n1. **Clone or navigate to the project directory**\n```bash\ncd c:\\AI_2026\\Projects\\End_to_End_Rag\n```\n\n2. **Create a virtual environment (recommended)**\n```bash\npython -m venv venv\nsource venv/Scripts/activate  # On Windows: venv\\Scripts\\activate\n```\n\n3. **Install dependencies**\n```bash\npip install -r requirements.txt\n```\n\n4. **Set up environment variables**\nCreate a `.env` file in the project root:\n```\nGROQ_API_KEY=your_groq_api_key_here\nHUGGINGFACE_API_KEY=your_huggingface_api_key_here\n```\n\n## Usage\n\n### Run the Streamlit App\n\n```bash\nstreamlit run AgenticRag/streamlit_app.py\n```\n\nThe app will open in your browser at `http://localhost:8501`\n\n### How to Use\n\n1. **Upload a Document**\n  ",
+  "dependencies_snippet": "streamlit==1.37.0\nlangchain==0.2.1\nlanggraph==0.1.20\nlangchain-groq==0.1.5\nlangchain-huggingface==0.0.16\nlangchain-community==0.2.1\npython-dotenv==1.0.0\npymupdf==1.23.8\nchromadb==0.4.24\n"
+}

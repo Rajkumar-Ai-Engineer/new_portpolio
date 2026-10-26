@@ -1,0 +1,17 @@
+{
+  "project_id": "P012",
+  "title": "VectorlessRag",
+  "owner": "Rajkumar-Ai-Engineer",
+  "repo": "vectorless_rag",
+  "language": "Jupyter Notebook",
+  "files_count": 5,
+  "files": [
+    "README.md",
+    "__pycache__/app_helper.cpython-312.pyc",
+    "app_helper.py",
+    "streamlit_app.py",
+    "vectorless_rag.ipynb"
+  ],
+  "readme_snippet": "# \ud83c\udf32 VectorLess RAG \u2014 Tree-Based Document Q&A\n\nA RAG system that answers questions from documents **without any vector embeddings or similarity search** \u2014 instead it uses a **LLM-navigated document tree** built by [PageIndex](https://pageindex.ai) to find relevant sections.\n\n---\n\n## \ud83d\udca1 The Core Idea\n\nTraditional RAG:\n```\nDocument \u2192 Chunk \u2192 Embed \u2192 FAISS \u2192 Similarity Search \u2192 Answer\n```\n\nVectorLess RAG:\n```\nDocument \u2192 PageIndex Tree \u2192 LLM Tree Search \u2192 Relevant Nodes \u2192 Answer\n```\n\nInstead of embedding chunks and doing cosine similarity, the document is parsed into a **hierarchical tree** (like a smart Table of Contents with full section text). An LLM then reads the tree structure and decides which nodes are relevant to the query \u2014 no vectors, no embeddings, no FAISS.\n\n---\n\n## \u2728 Features\n\n- Zero vector embeddings \u2014 no FAISS, no sentence-transformers\n- LLM-guided tree traversal to find relevant document sections\n- Section-level citations in every answer (title + page number)\n- Streamlit UI with step-by-step pipeline visibility\n- Supports PDF, TXT, and DOCX\n\n---\n\n## \ud83c\udfd7\ufe0f Architecture\n\n```\nUpload Document\n      \u2502\n      \u25bc\nPageIndex API\n      \u251c\u2500\u2500 submit_document()     # upload & parse\n      \u251c\u2500\u2500 build_llm_tree()      # async tree build (poll until complete)\n      \u2514\u2500\u2500 get_tree()            # hierarchical node tree with summaries\n                \u2502\n                \u25bc\n        Document Tree (nodes with title, page, text)\n                \u2502\n                \u25bc\n        llm_tree_search(query, tree)\n",
+  "dependencies_snippet": null
+}

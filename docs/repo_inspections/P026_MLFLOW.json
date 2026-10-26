@@ -1,0 +1,15 @@
+{
+  "project_id": "P026",
+  "title": "MLFlow",
+  "owner": "Rajkumar-Ai-Engineer",
+  "repo": "MLFLOW",
+  "language": "Python",
+  "files_count": 3,
+  "files": [
+    "README.md",
+    "requirements.txt",
+    "app.py"
+  ],
+  "readme_snippet": "\n```markdown\n# MLflow Experiment Tracking Practice\n\nA hands-on implementation of MLflow for machine learning experiment tracking, covering both local tracking workflows and remote artifact and metric logging with DagsHub.\n\n---\n\n## Overview\n\nThis repository demonstrates how to track parameters, metrics, and models using MLflow. It covers two execution workflows:\n1. **Local Tracking**: Logging runs to a local directory or SQLite backend and viewing runs via the local MLflow UI.\n2. **Remote Tracking**: Directing logs and model artifacts to a hosted DagsHub remote MLflow server.\n\n---\n\n## Project Structure\n\n```text\n\u251c\u2500\u2500 .env                 # Environment variables for DagsHub credentials\n\u251c\u2500\u2500 .gitignore           # Git ignore file for virtualenv, logs, and sensitive files\n\u251c\u2500\u2500 requirements.txt     # Python dependencies\n\u251c\u2500\u2500 app.py               # Main training and tracking script\n\u2514\u2500\u2500 README.md            # Project documentation\n\n```\n\n---\n\n## Setup & Installation\n\n### 1. Clone the repository\n\n```bash\ngit clone [https://github.com/Rajkumar-Ai-Engineer/MLFLOW.git](https://github.com/Rajkumar-Ai-Engineer/MLFLOW.git)\ncd MLFLOW\n\n```\n\n### 2. Set up a virtual environment\n\n```bash\npython -m venv venv\nsource venv/bin/activate  # On Windows: venv\\Scripts\\activate\n\n```\n\n### 3. Install dependencies\n\n```bash\npip install -r requirements.txt\n\n```\n\n---\n\n## Environment Configuration\n\nCreate a `.env` file in the root directory if you are connecting to DagsHub:\n\n```env\nMLFLOW_TRACKING_URI=[https://dagshub.com/](https://dagshub.com/)<username>/<repo_name>.mlflow\nMLFLOW_TRACKING_USERNAME=<your_dagshub_username>\nMLFLOW_TRACKING_PASSWORD=<your_dagshub_token>\n\n```\n\n> **Security Note:** Never commit your `.env` file to remote version control. Ensure `.env` is included inside `.gitignore`.\n\n---\n\n## Usage\n\n### Workflow 1: Local MLflow Tracking\n\nRun the training pipeline locally:\n\n```bash\npython app.py\n\n```\n\nLaunch the MLflow user interface in your terminal:\n\n```bash\nmlflow ui\n\n```\n\nAccess the dashboard in your browser at `http://127.0.0.1:5000`.\n\n---\n\n### Workflow 2: Remote Tracking via DagsHub\n\nInitialize DagsHub tracking directly inside `app.py` or export your credentials into the shell session:\n\n```python\nimport os\nimport dagshub\nimport mlflow\n\ndagshub.init(repo_owner='<username>', repo_name='<repo_name>', mlflow=True)\n\nwith mlflow.start_run():\n    mlflow.log_param(\"alpha\", 0.5)\n    mlflow.log_metric(\"rmse\", 0.78)\n\n```\n\nRun your script:\n\n```bash\npython app.py\n\n```\n\nAll parameters, metrics,",
+  "dependencies_snippet": "mlflow\ndagshub"
+}

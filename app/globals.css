@@ -1,0 +1,287 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #07090e;
+  --foreground: #e6edf3;
+  --card-bg: #0d111a;
+  --border-color: #1c2536;
+  --cyan-accent: #00f2fe;
+  --blue-accent: #2d7ff9;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07090e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c2536;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00d2e0;
+}
+
+/* Focus outline conforming to Master Book Decisions 125, 186-193 */
+:focus-visible {
+  outline: 2px solid #00f2fe !important;
+  outline-offset: 2px !important;
+  border-radius: inherit;
+}
+
+/* Restrained Glow Utility */
+.glow-cyan {
+  box-shadow: 0 0 20px -3px rgba(0, 242, 254, 0.25);
+}
+
+.glow-cyan-hover:hover {
+  box-shadow: 0 0 25px -2px rgba(0, 242, 254, 0.35);
+}
+
+/* Futuristic Grid Background */
+.bg-cyber-grid {
+  background-image: 
+    linear-gradient(to right, rgba(28, 37, 54, 0.3) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(28, 37, 54, 0.3) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Robotics Pulse Animation */
+@keyframes nodePulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.98);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.02);
+  }
+}
+
+.animate-node-pulse {
+  animation: nodePulse 4s ease-in-out infinite;
+}
+
+.animation-delay-1200 {
+  animation-delay: 1.2s;
+}
+
+.animation-delay-2400 {
+  animation-delay: 2.4s;
+}
+
+.animation-delay-3100 {
+  animation-delay: 3.1s;
+}
+
+/* Ambient Background Breathing & Drift Animations */
+@keyframes ambientDrift {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translate(30px, -40px) scale(1.08);
+    opacity: 0.9;
+  }
+}
+
+@keyframes ambientDriftAlt {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translate(-40px, 35px) scale(1.12);
+    opacity: 1;
+  }
+}
+
+.animate-ambient-drift {
+  animation: ambientDrift 18s ease-in-out infinite;
+}
+
+.animate-ambient-drift-alt {
+  animation: ambientDriftAlt 24s ease-in-out infinite;
+}
+
+/* 3D Gyroscopic Orbital Animations */
+@keyframes gyroSpin1 {
+  0% {
+    transform: rotateX(68deg) rotateY(20deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(68deg) rotateY(20deg) rotateZ(360deg);
+  }
+}
+
+@keyframes gyroSpin2 {
+  0% {
+    transform: rotateX(-48deg) rotateY(52deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(-48deg) rotateY(52deg) rotateZ(-360deg);
+  }
+}
+
+@keyframes gyroSpin3 {
+  0% {
+    transform: rotateX(32deg) rotateY(-58deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(32deg) rotateY(-58deg) rotateZ(360deg);
+  }
+}
+
+.animate-gyro-1 {
+  animation: gyroSpin1 22s linear infinite;
+}
+
+.animate-gyro-2 {
+  animation: gyroSpin2 28s linear infinite;
+}
+
+.animate-gyro-3 {
+  animation: gyroSpin3 34s linear infinite;
+}
+
+/* Reduced Motion Override conforming to modern web guidance */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-node-pulse {
+    animation: none !important;
+  }
+}
+
+/* ==============================================================================
+   Day Mode (Light Theme) System Overrides
+   ============================================================================== */
+html.light body {
+  background-color: #F8FAFC !important;
+  color: #0F172A !important;
+}
+
+html.light .bg-\[\#07090E\] {
+  background-color: #F8FAFC !important;
+}
+
+html.light .bg-\[\#07090E\]\/95,
+html.light .bg-\[\#07090E\]\/90 {
+  background-color: rgba(248, 250, 252, 0.96) !important;
+}
+
+html.light .bg-\[\#07090E\]\/80,
+html.light .bg-\[\#07090E\]\/60 {
+  background-color: #F1F5F9 !important;
+}
+
+html.light .bg-\[\#0D111A\] {
+  background-color: #FFFFFF !important;
+}
+
+html.light .bg-\[\#0D111A\]\/80,
+html.light .bg-\[\#0D111A\]\/90 {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+html.light .bg-\[\#121824\] {
+  background-color: #F1F5F9 !important;
+}
+
+html.light .bg-\[\#161F30\] {
+  background-color: #E2E8F0 !important;
+}
+
+html.light .border-\[\#1C2536\] {
+  border-color: #E2E8F0 !important;
+}
+
+html.light .border-\[\#1C2536\]\/80,
+html.light .border-\[\#1C2536\]\/60,
+html.light .border-\[\#1C2536\]\/50 {
+  border-color: #CBD5E1 !important;
+}
+
+/* Day Mode Text Adjustments */
+html.light .text-white {
+  color: #0F172A !important;
+}
+
+html.light .text-gray-200,
+html.light .text-gray-300 {
+  color: #334155 !important;
+}
+
+html.light .text-gray-400 {
+  color: #475569 !important;
+}
+
+html.light .text-gray-500 {
+  color: #64748B !important;
+}
+
+/* Day Mode Accent Adjustments for high contrast */
+html.light .text-\[\#00F2FE\] {
+  color: #0284C7 !important;
+}
+
+html.light .bg-\[\#00F2FE\]\/10 {
+  background-color: rgba(2, 132, 199, 0.12) !important;
+}
+
+html.light .border-\[\#00F2FE\]\/30,
+html.light .border-\[\#00F2FE\]\/40 {
+  border-color: rgba(2, 132, 199, 0.35) !important;
+}
+
+/* Day Mode Cyber Grid */
+html.light .bg-cyber-grid {
+  background-image: 
+    linear-gradient(to right, rgba(203, 213, 225, 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(203, 213, 225, 0.5) 1px, transparent 1px) !important;
+}
+
+/* Day Mode Form Inputs */
+html.light input:not([type="checkbox"]):not([type="radio"]),
+html.light textarea,
+html.light select {
+  background-color: #FFFFFF !important;
+  border-color: #CBD5E1 !important;
+  color: #0F172A !important;
+}
+
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #94A3B8 !important;
+}
+
+/* Day Mode Soft Shadows */
+html.light .shadow-xl,
+html.light .shadow-2xl {
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04) !important;
+}
+

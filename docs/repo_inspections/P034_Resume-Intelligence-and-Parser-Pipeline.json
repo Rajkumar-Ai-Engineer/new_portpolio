@@ -1,0 +1,14 @@
+{
+  "project_id": "P034",
+  "title": "Resume Intelligence and Parser Pipeline",
+  "owner": "Rajkumar-Ai-Engineer",
+  "repo": "Resume-Intelligence-and-Parser-Pipeline",
+  "language": "Python",
+  "files_count": 2,
+  "files": [
+    "README.md",
+    "main.py"
+  ],
+  "readme_snippet": "# Resume Intelligence and Parser Pipeline\n\nAn automated resume evaluation and text extraction pipeline designed to ingest candidate resumes, process structured details, and evaluate profiles using Python scripts and language model integrations.\n\n---\n\n## Overview\n\nThis project provides a script-based workflow to read raw candidate text from `resume.txt`, configure necessary API tokens via an environment file, and run parsing or evaluation logic across `main.py` and `next.py`.\n\n---\n\n## Repository Structure\n\n```text\ntask_3/\n\u251c\u2500\u2500 __pycache__/      # Compiled Python bytecode cache\n\u251c\u2500\u2500 .env              # Environment configurations and secret keys\n\u251c\u2500\u2500 main.py           # Primary script for resume ingestion and processing\n\u251c\u2500\u2500 next.py           # Follow-up pipeline or advanced evaluation script\n\u2514\u2500\u2500 resume.txt        # Input candidate profile or resume text\n\n```\n\n---\n\n## File Breakdown\n\n* `resume.txt`: Contains the raw text of the resume targeted for processing, extraction, or scoring.\n* `.env`: Stores configuration secrets such as API keys and runtime flags.\n* `main.py`: Serves as the primary entry point to read `resume.txt`, initialize API clients, and execute resume parsing or scoring workflows.\n* `next.py`: Implements subsequent processing steps, alternative prompt logic, or experimental pipelines.\n\n---\n\n## Setup and Installation\n\n### 1. Clone the Repository\n\n```bash\ngit clone https://github.com/Rajkumar-Ai-Engineer/task_3.git\ncd task_3\n\n```\n\n### 2. Configure Environment\n\nCreate or verify the `.env` file in the project root:\n\n```env\nAPI_KEY=your_api_key_here\nMODEL_NAME=gpt-4o-mini\n\n```\n\n### 3. Install Dependencies\n\nEnsure Python 3.8 or higher is installed, then set up required libraries:\n\n```bash\npython -m venv venv\nsource venv/bin/activate  # On Windows: venv\\Scripts\\activate\npip install python-dotenv openai\n\n```\n\n---\n\n## Usage\n\n### Run Primary Processing\n\nTo execute the baseline resume ingestion and analysis:\n\n```bash\npython main.py\n\n```\n\n### Run Follow-up Pipeline\n\nTo execute the secondary pipeline or comparative evaluation:\n\n```bash\npython next.py\n\n```\n\n---\n\n## Security and Best Practices\n\n* Remove committed secrets: `.env` currently appears in the git history. Revoke any exposed API keys immediately.\n* Add a `.gitignore` file: Ensure `.env` and `__pycache__/` are ignored in future commits:\n\n```gitignore\n.env\n__pycache__/\n*.pyc\nvenv/\n\n```\n",
+  "dependencies_snippet": null
+}

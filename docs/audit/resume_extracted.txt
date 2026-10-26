@@ -1,0 +1,61 @@
+--- PAGE 1 ---
+Rajkumar V
+Karur, Tamil Nadu | rajk7361206@gmail.com | +91 98942 00254
+linkedin.com/in/rajkumar-ai | github.com/Rajkumar-Ai-Engineer
+Profile Summary
+• AI Engineer (Fresher) and final-year B.Tech student specializing in Artificial Intelligence and Data Science.
+• Strong hands-on experience in Generative AI and Agentic AI, building LLM-driven and multi-agent systems.
+• Proficient in Python, SQL, TensorFlow, LangChain, Hugging Face, vector databases, and end-to-end AI deployment
+with MLOps practices (MLflow, DVC, DagsHub).
+• Strong problem-solving foundation validated by a LeetCode 50+ Badge.
+• Freelance Generative AI Engineer, startup founder, AI instructor, and hackathon winner with real-world project
+exposure.
+Skills
+• Programming: Python, SQL.
+• Problem Solving: LeetCode (50+ Badge), Data Structures & Algorithms.
+• AI & ML: Machine Learning, Deep Learning, Generative AI, Agentic AI, NLP, Computer Vision, Prompt Engi-
+neering, RAG.
+• F rameworks & Libraries: TensorFlow, Scikit-learn, Hugging Face, LangChain, LangGraph, CrewAI, AGNO,
+LLaMA, OpenCV.
+• LLMs & Models: Open-source LLMs, Groq-based models, LLaMA models, Embedding models.
+• Databases: MySQL, Vector Databases, MongoDB.
+• Deployment & T ools: FastAPI, Flask, Gradio, Streamlit, Git, Docker, A WS, CI/CD pipelines.
+• MLOps & Experiment T racking: MLflow, DVC (Data Version Control), DagsHub, Model Versioning, CI/CD
+Pipelines.
+Education
+Chettinad College of Engineering and T echnology , Karur Sep 2023 – May 2027
+B.Tech in Artificial Intelligence & Data Science — CGPA: 8.23
+Sri Meenakshi Matric Higher Secondary School Jun 2022 – Mar 2023
+Higher Secondary Certificate (Computer Science with Mathematics) — Score: 81.2%
+Projects & Research
+• Real-Time F ake News Detection using Agentic AI: Built an agentic AI system using LangChain deployed on
+A WS via GitHub CI/CD pipelines.
+• End-to-End Patient Navigation System (Multi-Agent Healthcare AI): Developed a patient navigation
+system with prescription and appointment agents deployed on A WS.
+• Email Assistant – Multi-Agent Inbox Automation System: Built a LangGraph and DeepAgents assistant
+over the Gmail and Google Calendar APIs with a Streamlit UI; an orchestrator delegates to four least-privilege
+subagents (inbox triage, mail search, calendar, draft writer), with human-in-the-loop send approval and prompt-
+injection flagging.
+• Object Detection using YOLOv11: Trained a YOLOv11 model using Ultralytics on Roboflow datasets for
+accurate real-time object detection.
+Experience & Achievements
+F reelance Generative AI Engineer Nov 2024 – Present
+Built and deployed Generative AI and Agentic AI solutions using LangChain, OpenCV, FastAPI, and A WS. Developed
+and tested a commercial gym attendance system using InsightFace for facial recognition-based member check-in, de-
+ployed for real-world commercial use.
+F ounder & AI Instructor 2024 – Present
+Tech Academy (Online AI Learning Platform) — Founded an online AI education startup and deliver hands-on AI,
+GenAI, and Agentic AI courses.
+Winner – AI/ML 24-Hour Hackathon Feb 2025
+Bannari Amman Institute of Technology — Secured 1st place for developing a real-time fake news detection system
+using Agentic AI.
+120+ AI Project Streak (2025): Completed and documented 120+ AI projects across Generative AI, Agentic AI,
+and RAG workflows.
+LeetCode 50+ Badge: Achieved the LeetCode 50-day badge, demonstrating consistent practice in data structures
+and algorithmic problem solving.
+MLOps Practice: Used MLflow, DVC, and DagsHub for experiment tracking, dataset versioning, and model version-
+ing across ML projects.
+Certifications
+• Artificial Intelligence Internship (3 Months) – Pantech.ai (includes Computer Vision certification track)
+• Complete Data Science Bootcamp – Udemy (Krish Naik)
+• Generative AI with Hugging Face – Udemy

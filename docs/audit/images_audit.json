@@ -1,0 +1,407 @@
+[
+  {
+    "filename": "BasicRagApplication.png",
+    "format": "PNG",
+    "width": 2752,
+    "height": 1536,
+    "size_bytes": 4742274,
+    "sha256": "33b7a70911ccb0d960327f6bd92c8e557d5071d37edb330f632417a2518af814",
+    "mode": "RGBA"
+  },
+  {
+    "filename": "DeepAgents.png",
+    "format": "PNG",
+    "width": 2752,
+    "height": 1536,
+    "size_bytes": 5899642,
+    "sha256": "ecb3d463b9045f93e3ac5b3e86e5b8c24959969d00684bbb1754248feccd2bc0",
+    "mode": "RGBA"
+  },
+  {
+    "filename": "FinancialPortpolio.png",
+    "format": "PNG",
+    "width": 2752,
+    "height": 1536,
+    "size_bytes": 5674010,
+    "sha256": "5cfd2379f665c9c70a58d46183fdb833710caecdd212feaf18924a0de3e60fd6",
+    "mode": "RGBA"
+  },
+  {
+    "filename": "Heltech.png",
+    "format": "PNG",
+    "width": 2752,
+    "height": 1536,
+    "size_bytes": 5736918,
+    "sha256": "c8aa5b4970f3ead420bbb7f8ee620b40e00672b7d5ad6fc5db172698e0d26008",
+    "mode": "RGBA"
+  },
+  {
+    "filename": "MCPDemo.png",
+    "format": "PNG",
+    "width": 2752,
+    "height": 1536,
+    "size_bytes": 5638988,
+    "sha256": "a4d2bf951ef6bec08b26da445c36a3b19fa4258e56bbb10fc13916be7880b517",
+    "mode": "RGBA"
+  },
+  {
+    "filename": "MLFlow.png",
+    "format": "PNG",
+    "width": 2752,
+    "height": 1536,
+    "size_bytes": 4917135,
+    "sha256": "ae4d559fd50a969d8ef39b30ad94ec5bbfbe573e49cac3e70490863785dd6ad6",
+    "mode": "RGBA"
+  },
+  {
+    "filename": "PokemonAnalysis.png",
+    "format": "PNG",
+    "width": 2752,
+    "height": 1536,
+    "size_bytes": 6163735,
+    "sha256": "ab87a1bd8388e5cccc41a320599217afdbaea961ecabf34a60a59c9d78504541",
+    "mode": "RGBA"
+  },
+  {
+    "filename": "Smart Housing Assistant.png",
+    "format": "PNG",
+    "width": 2752,
+    "height": 1536,
+    "size_bytes": 5345681,
+    "sha256": "88caa7695116c0475ce9bcb928d5af2b328f0ee4ce967ce05e6b22d98c191851",
+    "mode": "RGBA"
+  },
+  {
+    "filename": "Tamil Flower Classifier.png",
+    "format": "PNG",
+    "width": 2752,
+    "height": 1536,
+    "size_bytes": 5728193,
+    "sha256": "a1516ab72ee8a61697e74b3c66fb77003fd09944983dcba249b284164bbb9617",
+    "mode": "RGBA"
+  },
+  {
+    "filename": "URLSummarizer.png",
+    "format": "PNG",
+    "width": 2752,
+    "height": 1536,
+    "size_bytes": 5052626,
+    "sha256": "341aafa3dcce4fc8a7c407dc97936658c8c7464e5a6121a7892afd6ba6b376d6",
+    "mode": "RGBA"
+  },
+  {
+    "filename": "aegisai-system-overview-alt.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 71398,
+    "sha256": "d6aa9a7b379e22962fc99fa4cc520e03800394fd54bbe5ff6860e1f0fece3cbb",
+    "mode": "RGB"
+  },
+  {
+    "filename": "aegisai-system-overview.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 71398,
+    "sha256": "d6aa9a7b379e22962fc99fa4cc520e03800394fd54bbe5ff6860e1f0fece3cbb",
+    "mode": "RGB"
+  },
+  {
+    "filename": "agent-layer-architecture.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 143014,
+    "sha256": "a59c2064bdb4c84fcb0ba980ca033cd5c6d9e6126b0f8fe55fb7e7846bb3c010",
+    "mode": "RGB"
+  },
+  {
+    "filename": "agentic-rag.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 140180,
+    "sha256": "61c1fc130827985b27423f928a4cb2b69df36b435eddff3ad19deb0075932f73",
+    "mode": "RGB"
+  },
+  {
+    "filename": "agentic-system-workflow.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 95688,
+    "sha256": "0612efe1fece44cf4f830b4ad1ee67ca56ba4ac50c8b00eb1209fcfcdc6baffd",
+    "mode": "RGB"
+  },
+  {
+    "filename": "animal-image-classification.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 90956,
+    "sha256": "512fc1500a95c08ed3355004b896c33b85cd41e24cf8e9c05dec0738f67c8a34",
+    "mode": "RGB"
+  },
+  {
+    "filename": "architecture-workflow-unmatched.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 71304,
+    "sha256": "1f6f65f8c7bab101e1ff20f44c13a1a3af4ae2852bdcea24426c147d810741ae",
+    "mode": "RGB"
+  },
+  {
+    "filename": "bank-customer-churn.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 60244,
+    "sha256": "b2db51c5657b9f955abc824c83dc8cd74b5034540c84c72330baac494bc43159",
+    "mode": "RGB"
+  },
+  {
+    "filename": "book-recommendation-system.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 73912,
+    "sha256": "d71e0c6655f5f0fb8e4234806f9fa46c43008ae34ede4e9461d5a882dafd613b",
+    "mode": "RGB"
+  },
+  {
+    "filename": "deepfake-audio-video-fusion.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 97456,
+    "sha256": "6560074559f0d85891b3165e7d7aa0c995ac7c836b2867ce95ba1e361969d1a6",
+    "mode": "RGB"
+  },
+  {
+    "filename": "devbot-app-architecture.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 54946,
+    "sha256": "1a4aad5f01bd8577ffa4a0a6835e30f901664607bcbcee7b96f5900a56716399",
+    "mode": "RGB"
+  },
+  {
+    "filename": "developer-cli-flow-alt.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 60726,
+    "sha256": "8b257afa377b033523637451581a80090a1b9e2944de336c03468d3d60d2a65a",
+    "mode": "RGB"
+  },
+  {
+    "filename": "document-ingestion-workflow.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 66734,
+    "sha256": "79ce45db10cd5077c11837bc545d4219787a8f0afff15e1cf999e9e366a500f9",
+    "mode": "RGB"
+  },
+  {
+    "filename": "dvc-git-ml-pipeline.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 61832,
+    "sha256": "bba965f49889e33940f7ede12ef3ae194b5bdf0ab4725d40ea2b7239eb6d5f5c",
+    "mode": "RGB"
+  },
+  {
+    "filename": "email-assistant-architecture.webp",
+    "format": "WEBP",
+    "width": 1536,
+    "height": 1024,
+    "size_bytes": 168884,
+    "sha256": "c52e2e9e99d1507aea48f3969f78823f4818643c25a60cac299fce7ca76a3548",
+    "mode": "RGB"
+  },
+  {
+    "filename": "end-to-end-rag.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 122370,
+    "sha256": "9c4d661790eeac19718e905efaf98a29076d15350ab4ea58518d60b7eb6d58c3",
+    "mode": "RGB"
+  },
+  {
+    "filename": "face-recognition-attendance.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 112918,
+    "sha256": "b2cedc5c94dcaec392ade0bbf02c833987ea5c84ae447fd8f1f8bc63ac155792",
+    "mode": "RGB"
+  },
+  {
+    "filename": "fake_news_detection_v1.png",
+    "format": "PNG",
+    "width": 2752,
+    "height": 1536,
+    "size_bytes": 5541952,
+    "sha256": "c46383335599887b966a20b3f3f0a9e40e14d69b988c8aa80e992ff4e80f5f8b",
+    "mode": "RGBA"
+  },
+  {
+    "filename": "gmail-calendar-mcp-orchestration.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 95300,
+    "sha256": "5cfb7455dba33ec0cd37863aa758ed54ab0b49efbf48b1384d3f8e93e7b5e51a",
+    "mode": "RGB"
+  },
+  {
+    "filename": "healthcare-orchestration-layers.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 88020,
+    "sha256": "83d0d69b89a317905d03e75f42d53b511c60dc39784b2352bd493d270e78b61b",
+    "mode": "RGB"
+  },
+  {
+    "filename": "healthcare-user-flow.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 102132,
+    "sha256": "2cc191833cb0bd16d3c73449ff9920c4251e570aa3088c820cc54e242dcba40a",
+    "mode": "RGB"
+  },
+  {
+    "filename": "holiday-trip-planner.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 95182,
+    "sha256": "bd6bbb5b8cb4f86fb5542d07ec9c4d9c53646454572d93e70e1dff84ada47ef0",
+    "mode": "RGB"
+  },
+  {
+    "filename": "mcp-developer-cli-flow.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 60726,
+    "sha256": "8b257afa377b033523637451581a80090a1b9e2944de336c03468d3d60d2a65a",
+    "mode": "RGB"
+  },
+  {
+    "filename": "multi-agent-streamlit.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 61596,
+    "sha256": "f3a37f8dd8ecc34e0d922a5ce23e1bca8893a7f6174b873ff6b8192db61e7f2c",
+    "mode": "RGB"
+  },
+  {
+    "filename": "network-security-data-flow-alt.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 115918,
+    "sha256": "da7747991181ce357c99823954ef2f9d750711063cc1a42a2ac8c5092f1bd986",
+    "mode": "RGB"
+  },
+  {
+    "filename": "network-security-data-flow.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 115918,
+    "sha256": "da7747991181ce357c99823954ef2f9d750711063cc1a42a2ac8c5092f1bd986",
+    "mode": "RGB"
+  },
+  {
+    "filename": "player-face-recognition.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 102992,
+    "sha256": "c11e15860964201103a4cd5448e5ccf17c487943af132a215c2fee347e1b2b53",
+    "mode": "RGB"
+  },
+  {
+    "filename": "prescription-agent.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 101666,
+    "sha256": "cfed15b6a200d2aa1a2eb807434e58ec375c591f202390d62c812e1f8f33db1e",
+    "mode": "RGB"
+  },
+  {
+    "filename": "resume-intelligence-parser.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 85896,
+    "sha256": "52f1f456ffb45e163221330627a6661d32d6a3556b87bea4224d28b6aff562df",
+    "mode": "RGB"
+  },
+  {
+    "filename": "sirex-medical-assistant.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 85280,
+    "sha256": "dc0ac69e7cd7560a6674b87c1a1f47f7af7e16818cb33606c0aa0de2416746f7",
+    "mode": "RGB"
+  },
+  {
+    "filename": "student-performance-prediction.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1344,
+    "size_bytes": 165674,
+    "sha256": "a87b68e2bb8ea6168f84d05113b1dd19990c7bac2a7e031bf75ff0722d44cd95",
+    "mode": "RGB"
+  },
+  {
+    "filename": "tamil-literature-flowers.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 110980,
+    "sha256": "343b3dc66da23133dbbeead328a08aa44c006fc5ac4152951894ee0d27d9345c",
+    "mode": "RGB"
+  },
+  {
+    "filename": "unsupervised-clustering-pipeline-alt.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 97680,
+    "sha256": "86c12e9a9e67250b084694ae4052ab61fe7e0291616a1c44ff861aba76267e29",
+    "mode": "RGB"
+  },
+  {
+    "filename": "unsupervised-clustering-pipeline.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1129,
+    "size_bytes": 130138,
+    "sha256": "e7d8db6cd92ac04144c477fe4e9db50c1035ecfb6a2d1d2dd742777f9c817248",
+    "mode": "RGB"
+  },
+  {
+    "filename": "vectorless-rag.webp",
+    "format": "WEBP",
+    "width": 1800,
+    "height": 1005,
+    "size_bytes": 81108,
+    "sha256": "b4c8216d8b4730e77a6cd65d2c1808d346806e266f8394117dde78d0984de16d",
+    "mode": "RGB"
+  }
+]

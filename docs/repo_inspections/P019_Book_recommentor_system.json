@@ -1,0 +1,15 @@
+{
+  "project_id": "P019",
+  "title": "Book Recommendation System",
+  "owner": "Rajkumar-Ai-Engineer",
+  "repo": "Book_recommentor_system",
+  "language": "Jupyter Notebook",
+  "files_count": 3,
+  "files": [
+    "README.md",
+    "requirements.txt",
+    "main.py"
+  ],
+  "readme_snippet": "# Book Recommendation System - Filtering Approach Analysis\n\n## Dataset Summary\n- **Books**: 271,360 records with 7 content features\n- **Ratings**: 1,149,780 user-item interactions\n- **Users**: 105,283 unique users\n- **Unique Books**: 340,556 unique books\n- **Sparsity**: 99.99% (extremely sparse matrix)\n- **Data Density**: 0.0032%\n\n## Key Metrics\n- Average ratings per user: 10.92\n- Average ratings per book: 3.38\n- Rating scale: 0-10\n- Missing values: Minimal (only 2-3 per feature)\n\n---\n\n## Approach Comparison\n\n### 1. CONTENT-BASED FILTERING\n**Feasibility: HIGH**\n\n#### Strengths:\n- 7 rich content features available (Title, Author, Publisher, Year, Images)\n- 100% data availability for key features\n- No cold-start problem for new items\n- Interpretable recommendations (can explain why)\n- Works well with limited user history\n\n#### Weaknesses:\n- Limited diversity (recommends similar books only)\n- Requires good feature engineering\n- Cannot discover unexpected preferences\n- Prone to over-specialization\n\n#### Use Case:\n- New books without ratings\n- Users with minimal rating history\n- Explainable recommendations\n\n#### Implementation:\n```\nTF-IDF on book metadata \u2192 Cosine similarity \u2192 Top-K recommendations\n```\n\n---\n\n### 2. COLLABORATIVE FILTERING\n**Feasibility: MEDIUM**\n\n#### Strengths:\n- Discovers hidden patterns in user preferences\n- Provides diverse recommendations\n- No feature engineering needed\n- Works across different domains\n\n#### Weaknesses:\n- **Severe sparsity (99.99%)** - most user-item pairs have no ratings\n- Cold-start problem for new users/items\n- Requires sufficient interaction data\n- Computationally expensive for large datasets\n- Data density only 0.0032%\n\n#### Use Case:\n- Established users with rating history\n- Popular books with many ratings\n- Discovering unexpected preferences\n\n#### Implementation:\n```\nUser-item matrix \u2192 Matrix factorization/KNN \u2192 Similar users \u2192 Top-K recommendations\n```\n\n#### Challenge:\nWith 99.99% sparsity, collaborative filtering alone will struggle to find meaningful patterns. Most user pairs will have insufficient overlap.\n\n---\n\n### 3. HYBRID APPROACH (RECOMMENDED)\n**Feasibility: HIGH - BEST CHOICE**\n\n#### Why Hybrid is Best:\n1. **Handles Cold-Start**: Content-based for new items/users, collaborative for established ones\n2. **Balanced Diversity**: Combines diverse recommendations with interpretability\n3. **Robust**: Fallback mechanisms when one approach fails\n4. **Scalable**: Can weight approaches based on data availability\n\n###",
+  "dependencies_snippet": "scikit-learn\npandas\nnumpy\nmatplotlib\nseaborn\nipykernel\npymongo\nstructlog\ncertifi\npython-dotenv\nPyYAML\nmlflow\npytest\n"
+}

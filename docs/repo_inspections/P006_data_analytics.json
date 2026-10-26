@@ -1,0 +1,22 @@
+{
+  "project_id": "P006",
+  "title": "PokemonDataAnalysis",
+  "owner": "Rajkumar-Ai-Engineer",
+  "repo": "data_analytics",
+  "language": "Jupyter Notebook",
+  "files_count": 10,
+  "files": [
+    "EXCEL FILES.zip",
+    "POKEMON ANALYSIS/pokemon analysis.ipynb",
+    "POKEMON ANALYSIS/pokemon-analysis.pdf",
+    "POWER BI/IMG/power bi kpi.jpg",
+    "POWER BI/IMG/power bi.jpg",
+    "POWER BI/PB.pbix",
+    "POWER BI/dashboard.pbix",
+    "POWER BI/digital_marketing_kpi_dataset.xlsx",
+    "POWER BI/ola_cabs_data_practice.xlsx",
+    "POWER BI/rajbi1.pbix"
+  ],
+  "readme_snippet": null,
+  "dependencies_snippet": null
+}

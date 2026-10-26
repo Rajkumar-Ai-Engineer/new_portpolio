@@ -1,0 +1,20 @@
+{
+  "project_id": "P008",
+  "title": "Animal-Img-Classification",
+  "owner": "Rajkumar-Ai-Engineer",
+  "repo": "Animal_img_classification",
+  "language": "Python",
+  "files_count": 8,
+  "files": [
+    ".gitignore",
+    "1.jpg",
+    "README.md",
+    "cv_train.py",
+    "download.py",
+    "rename.py",
+    "test.py",
+    "train.py"
+  ],
+  "readme_snippet": "A comprehensive `README.md` template tailored to the structure and script workflow of your **Animal_img_classification** repository:\n\n```markdown\n# Animal Image Classification\n\nAn end-to-end Computer Vision pipeline to download, preprocess, train, and test deep learning models for multi-class animal image classification.\n\n---\n\n## \ud83d\udccc Project Overview\n\nThis repository provides a modular workflow for image-based animal classification:\n- Automated data downloading and preprocessing (renaming, organizing).\n- Model training routines (standard neural network & OpenCV/transfer learning pipelines).\n- Inference and testing scripts for evaluating on unseen animal images.\n\n---\n\n## \ud83d\udcc1 Repository Structure\n\n```text\n\u251c\u2500\u2500 1.jpg               # Sample test image\n\u251c\u2500\u2500 cv_train.py         # Computer Vision / OpenCV-based training pipeline\n\u251c\u2500\u2500 download.py         # Script to download and fetch dataset images\n\u251c\u2500\u2500 rename.py           # Preprocessing script to clean and rename images\n\u251c\u2500\u2500 test.py             # Inference/evaluation script on new images\n\u251c\u2500\u2500 train.py            # Main model training script\n\u251c\u2500\u2500 .gitignore          # Git ignore rules for cached models & dataset folders\n\u2514\u2500\u2500 README.md           # Project documentation\n\n```\n\n---\n\n## \u2699\ufe0f Prerequisites & Setup\n\n1. **Clone the repository:**\n```bash\ngit clone [https://github.com/Rajkumar-Ai-Engineer/Animal_img_classification.git](https://github.com/Rajkumar-Ai-Engineer/Animal_img_classification.git)\ncd Animal_img_classification\n\n```\n\n\n2. **Create an",
+  "dependencies_snippet": null
+}

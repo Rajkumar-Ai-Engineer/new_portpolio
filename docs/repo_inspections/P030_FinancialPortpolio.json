@@ -1,0 +1,15 @@
+{
+  "project_id": "P030",
+  "title": "FinancialPortpolio",
+  "owner": "Rajkumar-Ai-Engineer",
+  "repo": "FinancialPortpolio",
+  "language": "Jupyter Notebook",
+  "files_count": 3,
+  "files": [
+    "README.md",
+    "requirements.txt",
+    "src/main.py"
+  ],
+  "readme_snippet": "Here is a complete, well-structured documentation you can add directly to your project as `README.md`:\n\n```markdown\n# Financial Portfolio Analysis and Optimization\n\nAn end-to-end financial data analytics and portfolio optimization pipeline designed to analyze historical asset performance, quantify risk-return profiles, and optimize portfolio asset allocations.\n\n---\n\n## Overview\n\nThis project provides tools for financial market data ingestion, return modeling, risk evaluation, and portfolio weighting. The repository combines modular Python components located in the `src` module with exploratory experiments and visualizations contained in `main.ipynb`.\n\n---\n\n## Key Features\n\n- Historical market data processing and cleaning\n- Calculation of key financial performance metrics such as cumulative returns, annualized volatility, Sharpe ratio, and maximum drawdown\n- Modern portfolio theory and mean-variance optimization\n- Correlation analysis and efficient frontier visualization\n- Modular code architecture packaged via `setup.py`\n\n---\n\n## Repository Structure\n\n```text\nFinancialPortpolio/\n\u251c\u2500\u2500 src/\n\u2502   \u251c\u2500\u2500 __init__.py\n\u2502   \u251c\u2500\u2500 data_loader.py\n\u2502   \u251c\u2500\u2500 metrics.py\n\u2502   \u2514\u2500\u2500 optimizer.py\n\u251c\u2500\u2500 main.ipynb\n\u251c\u2500\u2500 requirements.txt\n\u251c\u2500\u2500 setup.py\n\u251c\u2500\u2500 .gitignore\n\u2514\u2500\u2500 README.md\n\n```\n\n---\n\n## Getting Started\n\n### Prerequisites\n\nEnsure you have Python 3.8 or higher installed along with pip and git.\n\n### Installation\n\n1. Clone the repository:\n\n```bash\ngit clone [https://github.com/Rajkumar-Ai-Engineer/FinancialPortpolio.git](https://github.com/Rajkumar-Ai-Engineer/FinancialPortpolio.git)\ncd FinancialPortpolio\n\n```\n\n2. Create and activate a virtual environment:\n\n```bash\npython -m venv venv\nsource venv/bin/activate\n\n```\n\nOn Windows:\n\n```bash\nvenv\\Scripts\\activate\n\n```\n\n3. Install project dependencies:\n\n```bash\npip install -r requirements.txt\n\n```\n\n4. Install the package in editable mode:\n\n```bash\npip install -e .\n\n```\n\n---\n\n## Usage\n\n### Interactive Notebook\n\nRun the complete pipeline interactively using Jupyter Notebook:\n\n```bash\njupyter notebook main.ipynb\n\n```\n\n### Python Package Workflow\n\nYou can import and use modules directly from the `src` package:\n\n```python\nimport numpy as np\nfrom src.data_loader import fetch_asset_data\nfrom src.metrics import calculate_annualized_returns, calculate_sharpe_ratio\nfrom src.optimizer import optimize_portfolio\n\ntickers = [\"RELIANCE.NS\", \"TCS.NS\", \"INFY.NS\", \"HDFCBANK.NS\"]\ndata = fetch_asset_data(tickers, start_date=\"2020-01-01\")\n\nreturns = calculate_annua",
+  "dependencies_snippet": "numpy\npandas\nmatplotlib\nyfinance\nscikit-learn\n-e ."
+}
